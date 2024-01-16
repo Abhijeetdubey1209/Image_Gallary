@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Image Gallary</string>
+    <string name="Button">Import from Drive</string>
 </resources>
