@@ -7,8 +7,6 @@
     android:orientation="vertical"
     android:background="#808080"
     tools:context=".MainActivity">
-    
-
 
 
     <ScrollView
@@ -24,53 +22,51 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
+                android:paddingTop="12dp"
                 android:text="Images"
-                android:textStyle="bold"
                 android:textAlignment="center"
                 android:textSize="24sp"
-                android:paddingTop="12dp"/>
+                android:textStyle="bold" />
 
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                >
-                
-                <ImageButton
-                    style="@style/Widget.AppCompat.Button.Borderless"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:src="@drawable/baseline_add_a_photo_24"/>
-                <ImageButton
-                    style="@style/Widget.AppCompat.Button.Borderless"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:src="@drawable/album_svgrepo_com"/>
+                android:orientation="horizontal">
 
+                <ImageButton
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/baseline_add_a_photo_24" />
+
+                <ImageButton
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/album_svgrepo_com" />
 
 
             </LinearLayout>
 
             <LinearLayout
-                android:layout_marginTop="20dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
                 android:orientation="horizontal">
 
                 <androidx.cardview.widget.CardView
                     android:layout_width="wrap_content"
                     android:layout_height="130dp"
                     android:layout_margin="10dp"
-                    app:cardElevation="6dp"
+                    android:elevation="80dp"
                     app:cardCornerRadius="10dp"
-                    android:elevation="80dp">
+                    app:cardElevation="6dp">
 
                     <ImageView
                         android:layout_width="184dp"
                         android:layout_height="match_parent"
-                        android:src="@drawable/img1"
                         android:scaleType="centerCrop"
-                        />
+                        android:src="@drawable/img1" />
 
                 </androidx.cardview.widget.CardView>
 
@@ -78,15 +74,14 @@
                     android:layout_width="wrap_content"
                     android:layout_height="130dp"
                     android:layout_margin="12dp"
-                    app:cardElevation="6dp"
-                    app:cardCornerRadius="10dp">
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="6dp">
 
                     <ImageView
                         android:layout_width="184dp"
                         android:layout_height="match_parent"
-                        android:src="@drawable/img2"
                         android:scaleType="centerCrop"
-                        />
+                        android:src="@drawable/img2" />
 
                 </androidx.cardview.widget.CardView>
             </LinearLayout>
@@ -106,9 +101,8 @@
                     <ImageView
                         android:layout_width="184dp"
                         android:layout_height="match_parent"
-                        android:src="@drawable/img3"
                         android:scaleType="centerCrop"
-                        />
+                        android:src="@drawable/img3" />
 
                 </androidx.cardview.widget.CardView>
 
@@ -121,9 +115,8 @@
                     <ImageView
                         android:layout_width="184dp"
                         android:layout_height="match_parent"
-                        android:src="@drawable/img4"
                         android:scaleType="centerCrop"
-                        />
+                        android:src="@drawable/img4" />
 
                 </androidx.cardview.widget.CardView>
             </LinearLayout>
@@ -142,9 +135,8 @@
                     <ImageView
                         android:layout_width="184dp"
                         android:layout_height="match_parent"
-                        android:src="@drawable/img5"
                         android:background="@drawable/custom_button"
-                        />
+                        android:src="@drawable/img5" />
 
                 </androidx.cardview.widget.CardView>
 
@@ -157,45 +149,8 @@
                     <ImageView
                         android:layout_width="184dp"
                         android:layout_height="match_parent"
-                        android:src="@drawable/img6"
                         android:scaleType="centerCrop"
-                        />
-
-                </androidx.cardview.widget.CardView>
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-
-                <androidx.cardview.widget.CardView
-                    android:layout_width="wrap_content"
-                    android:layout_height="130dp"
-                    android:layout_margin="10dp"
-                    app:cardElevation="6dp">
-
-                    <ImageView
-                        android:layout_width="184dp"
-                        android:layout_height="match_parent"
-                        android:src="@drawable/img7"
-                        android:scaleType="centerCrop"
-                        />
-
-                </androidx.cardview.widget.CardView>
-
-                <androidx.cardview.widget.CardView
-                    android:layout_width="wrap_content"
-                    android:layout_height="130dp"
-                    android:layout_margin="10dp"
-                    app:cardElevation="6dp">
-
-                    <ImageView
-                        android:layout_width="184dp"
-                        android:layout_height="match_parent"
-                        android:src="@drawable/img8"
-                        android:scaleType="centerCrop"
-                        />
+                        android:src="@drawable/img6" />
 
                 </androidx.cardview.widget.CardView>
             </LinearLayout>
@@ -215,8 +170,41 @@
                         android:layout_width="184dp"
                         android:layout_height="match_parent"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/img1"
-                        />
+                        android:src="@drawable/img7" />
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="130dp"
+                    android:layout_margin="10dp"
+                    app:cardElevation="6dp">
+
+                    <ImageView
+                        android:layout_width="184dp"
+                        android:layout_height="match_parent"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/img8" />
+
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="130dp"
+                    android:layout_margin="10dp"
+                    app:cardElevation="6dp">
+
+                    <ImageView
+                        android:layout_width="184dp"
+                        android:layout_height="match_parent"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/img1" />
 
                 </androidx.cardview.widget.CardView>
 
@@ -230,9 +218,8 @@
                     <ImageView
                         android:layout_width="184dp"
                         android:layout_height="match_parent"
-                        android:src="@drawable/img1"
                         android:scaleType="centerCrop"
-                        />
+                        android:src="@drawable/img1" />
 
                 </androidx.cardview.widget.CardView>
             </LinearLayout>
@@ -240,12 +227,13 @@
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                >
-                <Button
+                android:layout_gravity="center">
+
+                <androidx.appcompat.widget.AppCompatButton
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:background="@drawable/custom_button"
+                    android:fontFamily="@font/"
 
                     android:text="@string/Button" />
 
@@ -256,6 +244,6 @@
 
 
     </ScrollView>
-    
+
 
 </LinearLayout>
