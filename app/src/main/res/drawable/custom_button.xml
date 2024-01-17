@@ -8,11 +8,14 @@
 <!--        android:width="2dp"-->
 <!--        android:dashWidth="50dp"-->
 <!--        />-->
-    <gradient
-        android:startColor="#ff6e7f"
-        android:centerColor="#bfe9ff"
-        android:endColor="#ff6e7f"
-        />
+<!--    <gradient-->
+<!--        android:startColor="#ff6e7f"-->
+<!--        android:centerColor="#bfe9ff"-->
+<!--        android:endColor="#ff6e7f"-->
+<!--        />-->
+
+    <solid
+        android:color="#E600E0FF"
 
 
 </shape>

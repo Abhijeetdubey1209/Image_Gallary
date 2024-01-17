@@ -135,8 +135,8 @@
                     <ImageView
                         android:layout_width="184dp"
                         android:layout_height="match_parent"
-                        android:background="@drawable/custom_button"
-                        android:src="@drawable/img5" />
+                        android:src="@drawable/img5"
+                        android:scaleType="centerCrop"/>
 
                 </androidx.cardview.widget.CardView>
 
@@ -224,18 +224,36 @@
                 </androidx.cardview.widget.CardView>
             </LinearLayout>
 
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginBottom="25dp"
+                android:background="@drawable/line"
+                />
+
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center">
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+
 
                 <androidx.appcompat.widget.AppCompatButton
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:background="@drawable/custom_button"
-                    android:fontFamily="@font/"
-
+                    android:fontFamily="@font/Commissioner_SemiBold"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:padding="12dp"
+                    android:layout_marginBottom="12dp"
+                    android:elevation="80dp"
                     android:text="@string/Button" />
+
+
 
 
             </LinearLayout>
