@@ -8,6 +8,7 @@ This Android application is a very basic and simple image gallery app created us
 - [Technologies Used](#technologies-used)
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
+- [Usage](#usage)
 - [Contributing](#contributing)
 
 ## Features
@@ -38,7 +39,9 @@ git clone https://github.com/your-username/image-gallery-app.git
 2. Open the project in Android Studio.
 
 3. Build and run the project on an emulator or a physical device
+## Usage
 
+This app can be used to display images in vertical gallery view. You can import and export images to the gallery using buttons.
 ## Contributing
 
 If you would like to contribute to this project, you are most welcome to fork this repo and add changes.
